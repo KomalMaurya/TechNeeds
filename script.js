@@ -178,12 +178,12 @@ window.onload=function(){
 
 const questions=[
     {
-        question:"Which is the correct HTML tag for inserting a line break? ",
+        question:"A ______________ construct is used to repeat the execution of a section of a program. ",
         answers :[
-            {text:"<br>",correct:true},
-            {text:"<hr>",correct:false},
-            {text:"<lb>",correct:false},
-            {text:"<break>",correct:false},
+            {text:"Decision Making",correct:false},
+            {text:"Repeat",correct:false},
+            {text:"Select",correct:false},
+            {text:"Loop",correct:true},
 
         ]
     },
@@ -200,34 +200,34 @@ const questions=[
     },
 
     {
-        question:"What is the correct HTML for creating a hyperlink?",
+        question:"The body of the while loop is continuously executed until the specified condition is _______.",
         answers :[
-            {text:"<a url='https://www.w3schools.com'>W3Schools.com</a>",correct:false},
-            {text:"<a href='https://www.w3schools.com'>W3Schools.com</a>",correct:true},
-            {text:"<a name='https://www.w3schools.com'>W3Schools.com</a>",correct:false},
-            {text:"<a>https://www.w3schools.com</a>",correct:false},
+            {text:"Completed",correct:false},
+            {text:"True",correct:true},
+            {text:"False",correct:false},
+            {text:"None of the above",correct:false},
 
         ]
     },
 
     {
-        question:"Which of these tags are all <table> tags? ",
+        question:"There are techniques that provide ways to split a long, continuous program into a series of individual _________ that are related to each other in a specified manner.",
         answers :[
-            {text:"<table><head><tfoot>",correct:false},
-            {text:"<table><tr><td>",correct:true},
-            {text:"<thead><body><tr>",correct:false},
-            {text:"<table><tr><tt>",correct:false},
+            {text:"Functions",correct:false},
+            {text:"Modules",correct:true},
+            {text:"Procedures",correct:false},
+            {text:"Subprograms",correct:false},
 
         ]
     },
 
     {
-        question:"Which is the correct HTML for inserting an image? ",
+        question:"The process by which one object can acquire the properties of another object: ",
         answers :[
-            {text:"<img alt='MyImgage'>image.gif</img>",correct:false},
-            {text:"<img href='image.gif' alt='MyImage'",correct:false},
-            {text:"<image src='image.gif' alt='MyImage'>",correct:false},
-            {text:"<img src='image.gif' alt='MyImage'>",correct:true},
+            {text:"Inheritance",correct:true},
+            {text:"Encapsulation",correct:false},
+            {text:"Polymorphism",correct:false},
+            {text:"All of the above",correct:false},
 
         ]
     }
