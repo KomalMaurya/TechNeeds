@@ -1,0 +1,145 @@
+@media(max-width:1350px){
+    .login-btn{
+        max-width: 20%;
+        margin-left: 30px;
+    }
+    .icon-i{
+        margin-left: 200px;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+    #login{
+        margin-left: 20px;
+    }
+    .line{
+        margin-left: 190px;
+    }
+}
+
+@media(max-width:1200px){
+    .header-logo h2{
+        margin-left: 0px;
+    }
+    .right-pic{
+        display: none;
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:1140px){
+    #login{
+        font-size: 15px;
+    }
+    #Register{
+        font-size: 15px;
+        /* width: 75px; */
+    }
+
+    header{
+        margin-right: -20px;
+    }
+
+    nav ul{
+        margin-right: -100px;
+    }
+    
+    nav ul li{
+        margin-left: 15px;
+    }
+
+    .icon-i{
+        margin-left: 170px;
+    }
+    .line{
+        margin-left: 160px;
+    }
+    .login-btn{
+        margin-left: 250px;
+    }
+    nav{
+        margin-right: -200px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:990px){
+    nav{
+        display: none;
+    }
+
+    #home{
+        height: 800px;
+    }
+
+    .login-btn{
+        /* border: 2px solid salmon; */
+        margin-left: 300px;
+        margin-right: -30px;
+        max-width: 400px;
+    }
+    .about-1,.about-2{
+        height: max-content;
+    }
+    .course11,.course12,.course13,.course21,.course22,.course23{
+        height: auto;
+        width: auto;
+    }
+}
+
+@media(max-width:840px){
+    .hero-img{
+        margin-top: -250px;
+    }
+    .left-pic{
+        align-self: center;
+        margin-left: -350px;
+        transition: all 0.4s;
+    }
+
+    .Upgrade{
+        margin-top: 200px;
+    }
+    .login-btn{
+        width: 400px;
+        margin-right: -150px;
+    }
+}
+
+@media(max-width:700px){
+    .left-pic{
+        margin-left: -480px;
+    }
+}
+
+@media(max-width:650px){
+    .login-btn{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width:600px){
+    .login-btn{
+        height: 100px;
+        margin-left: 170px ;
+    }
+    .hero-img{
+        margin-top: -150px;
+    }
+    .Upgrade{
+        margin-top: 250px;
+    }
+    .Upgrade p{
+        font-size: 15px;
+        text-align: justify;
+        /* height: 300px; */
+        /* border: 2px solid salmon; */
+        max-width: 60%;
+    }
+    .box12,.box11,.box21,.box22{
+        /* height: auto; */
+        width: auto;
+    }
+}
