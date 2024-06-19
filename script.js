@@ -178,12 +178,12 @@ window.onload=function(){
 
 const questions=[
     {
-        question:"Choose the correct HTML tag for the largest heading ",
+        question:"Which is the correct HTML tag for inserting a line break? ",
         answers :[
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:true},
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:false},
+            {text:"<br>",correct:true},
+            {text:"<hr>",correct:false},
+            {text:"<lb>",correct:false},
+            {text:"<break>",correct:false},
 
         ]
     },
@@ -200,34 +200,34 @@ const questions=[
     },
 
     {
-        question:"Choose the correct HTML tag for the largest heading ",
+        question:"What is the correct HTML for creating a hyperlink?",
         answers :[
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:true},
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:false},
+            {text:"<a url='https://www.w3schools.com'>W3Schools.com</a>",correct:false},
+            {text:"<a href='https://www.w3schools.com'>W3Schools.com</a>",correct:true},
+            {text:"<a name='https://www.w3schools.com'>W3Schools.com</a>",correct:false},
+            {text:"<a>https://www.w3schools.com</a>",correct:false},
 
         ]
     },
 
     {
-        question:"Choose the correct HTML tag for the largest heading ",
+        question:"Which of these tags are all <table> tags? ",
         answers :[
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:true},
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:false},
+            {text:"<table><head><tfoot>",correct:false},
+            {text:"<table><tr><td>",correct:true},
+            {text:"<thead><body><tr>",correct:false},
+            {text:"<table><tr><tt>",correct:false},
 
         ]
     },
 
     {
-        question:"Choose the correct HTML tag for the largest heading ",
+        question:"Which is the correct HTML for inserting an image? ",
         answers :[
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:true},
-            {text:"Hello",correct:false},
-            {text:"Hello",correct:false},
+            {text:"<img alt='MyImgage'>image.gif</img>",correct:false},
+            {text:"<img href='image.gif' alt='MyImage'",correct:false},
+            {text:"<image src='image.gif' alt='MyImage'>",correct:false},
+            {text:"<img src='image.gif' alt='MyImage'>",correct:true},
 
         ]
     }
